@@ -9,3 +9,8 @@ def add3():
     s=num1+num2+num3
     print "sum is of three numbers entered is",s
 add3()
+def add4(num1,num2,num3,num4):
+    s=num1+num2+num3+num4
+    return s
+print add4(1,2,3,4)
+    
